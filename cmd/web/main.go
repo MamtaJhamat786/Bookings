@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/MamtaJhamat786/Bookings/pkg/config"
-	"github.com/MamtaJhamat786/Bookings/pkg/handlers"
-	"github.com/MamtaJhamat786/Bookings/pkg/render"
 	"fmt"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/MamtaJhamat786/Bookings/pkg/config"
+	"github.com/MamtaJhamat786/Bookings/pkg/handlers"
+	"github.com/MamtaJhamat786/Bookings/pkg/render"
 	"github.com/alexedwards/scs/v2"
 )
 
