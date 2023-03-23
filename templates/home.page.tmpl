@@ -1,0 +1,14 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>This is the home page</h1>
+                <p>This is some text</p>
+                <p> {{index .StringMap "test"}}
+                <img src="/static/images/go_pic.png" width="567px" height="500px">
+            </div>
+        </div>
+    </div>
+{{end}}
